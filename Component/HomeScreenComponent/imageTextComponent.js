@@ -1,5 +1,6 @@
-import React from 'react';
+//This file render All options availabe on the screen like give gift ,all servicies etc
 
+import React from 'react';
 import {StyleSheet, View, Image, Text, TouchableOpacity} from 'react-native';
 
 export default function (props) {

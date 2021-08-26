@@ -8,7 +8,7 @@
 
 import React, {useState, useEffect} from 'react';
 import {StatusBar} from 'react-native';
-import Tab from './Navigation/tabNavigation';
+import Tab from './Navigation/tabNavigation';//Import Tab Navigator
 import { NavigationContainer } from '@react-navigation/native';
 
 const App = () => {

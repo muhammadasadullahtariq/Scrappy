@@ -80,7 +80,11 @@ const App = () => {
             }}>
             {cardArray.map(item => {
               return (
-                <CardImageTextComponent image={item.image} text={item.text} />
+                <CardImageTextComponent
+                  image={item.image}
+                  text={item.text}
+                  key={item.key}
+                />
               );
             })}
           </View>

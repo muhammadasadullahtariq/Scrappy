@@ -1,5 +1,6 @@
-import React from 'react';
+//This File render Options on Card View On top on the screen
 
+import React from 'react';
 import {StyleSheet, View, Image, Text, TouchableOpacity} from 'react-native';
 
 export default function (props) {

@@ -17,7 +17,9 @@ const Tab = createBottomTabNavigator();
 
 function MyTabs() {
   return (
+    
     <Tab.Navigator
+    //Bottom Navigation  
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
@@ -26,9 +28,11 @@ function MyTabs() {
           borderTopLeftRadius: 25,
           borderTopRightRadius: 25,
           height: 83,
+          bottom:0
         },
       }}>
       <Tab.Screen
+      //Home Screen 
         name="Home"
         component={homeScreen}
         options={{
@@ -45,6 +49,7 @@ function MyTabs() {
           ),
         }}
       />
+      {/* Offer Screen Tab */}
       <Tab.Screen
         name="Offeres"
         component={offerScreen}
@@ -62,6 +67,7 @@ function MyTabs() {
           ),
         }}
       />
+      {/* Histroy Screen Tab */}
       <Tab.Screen
         name="Histroy"
         component={histroyScreen}
@@ -79,6 +85,7 @@ function MyTabs() {
           ),
         }}
       />
+      {/* Main Screen Tab */}
       <Tab.Screen
         name="MainMenu"
         component={maimMenu}
